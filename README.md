@@ -34,6 +34,13 @@ kubectl cp $PWD/index.html podname:/usr/share/nginx/html/
 https://localhost:30001/api/v1/_raw/replicationcontroller/namespace/default/name/mynignx
 you can still see the index.html page with the content
 ```
+
+## stateful deploy
+
+```code
+kubectl apply -f stateful.yml
+```
+
 ## some images
 
 ![page](./images/1.png)
